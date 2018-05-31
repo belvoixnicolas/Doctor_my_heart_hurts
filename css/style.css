@@ -21,7 +21,6 @@ main {
 }
 
 .point {
-  display: inline-block;
   position: relative;
   background: hsla(180, 100%, 1%, .7);
   height: 40px;
@@ -34,32 +33,32 @@ main {
 }
 
 .epaule {
-  top: -220px;
-  left: -50px;
+  top: 42px;
+  left: -2px;
 }
 
 .coude {
-  top: 30px;
-  left: 15px;
+  top: 95px;
+  left: 104px;
 }
 
 .main {
-  top: 30px;
-  left: -140px;
+  top: 110px;
+  left: -7px;
 }
 
 .hanche {
-  top: 110px;
-  left: -100px;
+  top: 59px;
+  left: 85px;
 }
 
 .genoux {
-  top: 350px;
-  left: -200px;
+  top: 147px;
+  left: 26px;
 }
 
 .pied {
-  top: 180px;
+  top: 433px;
   left: 71px;
 }
 
@@ -80,33 +79,33 @@ main {
 }
 
 #genoux {
-  top: -352px;
-  left: 150px;
+  top: -343px;
+  left: 140px;
 }
 
 #pied {
-  top: -434px;
-  left: 107px;
+  top: -429px;
+  left: 95px;
 }
 
 #hanche {
-  top: -220px;
-  left: 96px;
+  top: -215px;
+  left: 81px;
 }
 
 #main {
-  top: -230px;
-  left: 181px;
+  top: -226px;
+  left: 173px;
 }
 
 #coude {
-  top: -176px;
-  left: 72px;
+  top: -171px;
+  left: 62px;
 }
 
 #epaule {
-  top: -88px;
-  left: 182px;
+  top: -78px;
+  left: 168px;
 }
 
 .point:hover .text {
