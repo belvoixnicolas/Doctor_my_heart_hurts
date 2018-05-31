@@ -1,0 +1,114 @@
+p, h1, h6 {
+  font-family: 'Arvo', serif;
+}
+
+body {
+background: #ededed;
+}
+
+h1 {
+  padding: 20px;
+  margin-bottom: 60px;
+  font-size: 40px;
+  text-align: center;
+}
+
+main {
+  background: url('../img/corp.png') no-repeat;
+  width: 400px;
+  height: 500px;
+  margin: auto;
+}
+
+.point {
+  display: inline-block;
+  position: relative;
+  background: hsla(180, 100%, 1%, .7);
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.point:hover {
+  background: hsla(5, 100%, 50%, .7);
+}
+
+.epaule {
+  top: -220px;
+  left: -50px;
+}
+
+.coude {
+  top: 30px;
+  left: 15px;
+}
+
+.main {
+  top: 30px;
+  left: -140px;
+}
+
+.hanche {
+  top: 110px;
+  left: -100px;
+}
+
+.genoux {
+  top: 350px;
+  left: -200px;
+}
+
+.pied {
+  top: 180px;
+  left: 71px;
+}
+
+.text {
+  position: relative;
+  visibility: hidden;
+  width: 300px;
+}
+
+.text p {
+  font-size: 15px;
+}
+
+.text h6 {
+  padding-bottom: 10px;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+#genoux {
+  top: -352px;
+  left: 150px;
+}
+
+#pied {
+  top: -434px;
+  left: 107px;
+}
+
+#hanche {
+  top: -220px;
+  left: 96px;
+}
+
+#main {
+  top: -230px;
+  left: 181px;
+}
+
+#coude {
+  top: -176px;
+  left: 72px;
+}
+
+#epaule {
+  top: -88px;
+  left: 182px;
+}
+
+.point:hover .text {
+  visibility: visible;
+}
